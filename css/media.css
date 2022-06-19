@@ -1,0 +1,542 @@
+/* all mobile device */
+@media (max-width: 600px) {
+
+    #top-navbar-contain {
+        display: none;
+    }
+
+    #main-navigation {
+        min-height: 0vh;
+    }
+
+    .center-nav {
+        background-color: #FAFAFA;
+        height: 20vh;
+        display: none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* first section */
+    .carousel-item img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    #chief-card {
+        /* min-height: 46vh; */
+        margin-top: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    #image-first {
+        min-height: 15vh;
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    #read-more {
+        margin-left: 0px;
+        background-color: #BD0912;
+        color: #ffff;
+        font-size: 0.9rem;
+        display: flex;
+        float: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        margin-top: -10px;
+    }
+
+    #name {
+        font-size: 1rem;
+        position: relative;
+        margin-right: -40px;
+        object-fit: contain;
+    }
+
+    #post {
+        font-size: 0.8rem;
+        position: relative;
+        margin-right: -40px;
+    }
+
+    .flex-container,
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .justify-content-between {
+        flex-direction: row;
+    }
+
+    .sachibflex {
+        margin: 10px;
+        padding: 20px;
+        overflow: hidden;
+        margin-top: -10px;
+        flex: 1;
+    }
+
+    /*  press and download */
+    .press-release {
+        background-color: #2460b9;
+        padding: 20px;
+        min-height: 5vh;
+    }
+
+    .download-release {
+        background-color: #2460b9;
+        padding: 20px;
+        min-height: 5vh;
+    }
+
+    .press-release h1,
+    .patro-content h1,
+    #contact-info {
+        /* margin-top: 12%; */
+        position: relative;
+        left: 0px;
+    }
+
+    #form {
+        /* margin-top: 12%; */
+        position: relative;
+        left: 0px;
+        height: auto;
+    }
+
+    .press-item {
+        position: relative;
+        margin-left: -70px;
+    }
+
+    .press-item ul li a {
+        position: relative;
+        margin-left: -10px;
+        min-width: 100% !important;
+        flex: 1;
+    }
+
+    .vdo {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding: 15px;
+        display: block;
+        margin-left: -10px;
+        margin-right: auto;
+        height: 99%;
+    }
+
+    .facebook-pg,
+    .twitter-pg {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding: 15px;
+        display: block;
+        margin-left: -10px;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .patro-content {
+        width: 100%;
+    }
+
+    .main-patro {
+        position: relative;
+        left: 0;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .allbtn {
+        margin-top: 40px;
+    }
+
+
+    #address-road {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 30px;
+        color: black;
+    }
+
+    .sub-footer p {
+        text-align: center;
+        margin-top: 8px;
+        color: #fff;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    .related-link,
+    .import-link {
+        overflow: hidden;
+        position: relative;
+        left: 0px;
+        margin-top: 30px;
+    }
+
+    .main-footer {
+        left: 10px;
+        position: relative;
+    }
+
+
+    .banner-contact h1 {
+        font-size: 1.5rem;
+        margin: 10px;
+        position: relative;
+        left: 0px;
+        padding: 10px;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 1.3rem;
+        border-bottom: 4px solid white;
+        width: 190px;
+    }
+
+    .photobanner h1 {
+        color: #fff;
+        margin-left: 30px;
+        font-size: 20px;
+        margin: 5px;
+        position: relative;
+        left: 0px;
+        padding: 2px;
+        border-bottom: 4px solid white;
+        width: 200px;
+    }
+
+    .facebooktwitter h1 {
+        color: #fff;
+        margin-left: 30px;
+        font-size: 20px;
+        margin: 5px;
+        position: relative;
+        left: 0px;
+        border-bottom: 4px solid white;
+        width: 240px;
+        padding: 2px;
+    }
+
+    .download-flex {
+        flex: 1.5;
+        margin-top: 10px;
+        min-width: 100% !important;
+
+    }
+
+    #read-all-download {
+        background-color: #BD0912;
+        color: #ffff;
+        float: right;
+        font-size: 0.8rem;
+        margin-right: 5px;
+        float: right;
+    }
+
+    .download-item {
+        margin-left: -40px;
+        padding: 0px;
+    }
+
+    .download-item ul li {
+        list-style: none;
+        padding: 10px;
+    }
+}
+
+/* i pad mini */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 1.0) {
+    .center-nav {
+        background-color: #FAFAFA;
+        height: 25vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .whole-text {
+        margin-top: 0px;
+        background-color: red;
+    }
+
+    .center-text {
+        margin-top: 70px;
+    }
+
+    .center-logo-flag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13vh;
+    }
+
+    .center-logo-flag img {
+        height: 70px;
+    }
+
+    /* home section with chief card and slider */
+    .carousel-item img {
+        height: 70vh;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .card-image {
+        min-height: 80px;
+        max-width: 100px;
+        padding: 5px;
+    }
+
+        #chief-card-second {
+            height: 25vh;
+            margin-bottom:  40px;
+            border: 0px solid;
+            margin-left: 0px;
+        }
+    #name {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 15px;
+        padding: 5px;
+        margin-left: 0px;
+        text-align: none;
+        position: relative;
+        right: 0px;
+
+    }
+
+    #post {
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        position: relative;
+        margin-left: 0px;
+        right:0px;
+        color: black;
+    }
+
+    #read-more {
+        background-color: #BD0912;
+        color: #ffff;
+        font-size: 0.2rem;
+        display: flex;
+        float: right;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 25%;
+        height: 15%;
+        font-weight: 600;
+        margin: 5px;
+        margin-top: -0px;
+    }
+
+    #image-first {
+        min-height: auto;
+        min-width: 200%;
+        position: relative;
+        left: -15px;
+        padding: 5px;
+    }
+
+    .head-bg {
+        margin-top: 28px;
+    }
+
+    .head-bg h2 {
+        margin: 5px;
+        padding: 5px;
+        color: #ffffff;
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+    }
+    .second-section,.third-section{
+        margin-bottom: 100px;
+    }
+
+    #post {
+        font-weight: 500;
+
+        font-size: 0.5rem;
+        color: rgb(188, 171, 171);
+    }
+
+    .sachibflex {
+        margin: 10px;
+        padding: 20px;
+        overflow: hidden;
+        margin-top: -30px;
+        display: none;
+    }
+
+    .second {
+        margin-top: -40px;
+    }
+
+
+    .press-release h1,
+    .patro-content h1,
+    #contact-info {
+        /* margin-top: 12%; */
+        position: relative;
+        left: 0px;
+    }
+
+    #form {
+        position: relative;
+        left: 80px;
+    }
+
+    .press-item {
+        position: relative;
+        left: -50px;
+        padding: 0px;
+    }
+
+    .vdo {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding: 15px;
+        display: block;
+        margin-left: -10px;
+        margin-right: auto;
+        height: 99%;
+    }
+
+    .facebook-pg,
+    .twitter-pg {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding: 15px;
+        display: block;
+        margin-left: -10px;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .patro-content {
+        width: 100%;
+    }
+
+    .main-patro {
+        position: relative;
+        left: 0;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .related-link,
+    .import-link {
+        overflow: hidden;
+        position: relative;
+        left: 0px;
+        margin-top: 30px;
+    }
+
+    .main-footer {
+        left: -50px;
+        position: relative;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 26px;
+        width: 307px;
+        padding: 10px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 207px;
+        width: 300px;
+    }
+
+    .download-release,
+    .press-release {
+        min-height: 30vh;
+        padding: 0px;
+        max-width: auto;
+        position: relative;
+        background-color: #2460b9;
+    }
+
+    .download-item ul li a,
+    .press-item ul li a {
+        color: #ffff;
+        font-size: 0.8rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+    }
+}
+
+/* galaxy fold  */
+@media(max-width: 320px) {
+    .center-nav {
+        background-color: #FAFAFA;
+        height: 30vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+
+    #read-more {
+        background-color: #BD0912;
+        color: #ffff;
+        font-size: 0.5rem;
+    }
+
+    #chief-card {
+        min-height: 20vh;
+        margin-top: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .contact-detail-image {
+        height: 20px;
+        margin: 5px;
+        margin-right: 10px;
+    }
+
+    #address-road {
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin-top: 30px;
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:1180px) {
+    #top-navbar-contain {
+        display: none;
+    }
+}
+
+/* introduction page css */
