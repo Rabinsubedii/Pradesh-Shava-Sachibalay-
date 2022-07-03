@@ -31,14 +31,15 @@
     height: 13px;
     margin: 2px;
 }
-.flag-nepal:hover{
-        text-decoration: none;
+
+.flag-nepal:hover {
+    text-decoration: none;
 }
 
 .flag-uk {
     height: 13px;
     padding: 0px;
-    margin:2px
+    margin: 2px
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -113,6 +114,7 @@ nav {
     font-weight: 600;
     text-align: center;
 }
+
 .center-text #pradesh_shava_sachib {
     font-size: 18px;
     line-height: 10px;
@@ -136,8 +138,9 @@ nav {
     height: 15vh;
     margin-top: -50px;
 }
-.time_iframe{
-    font-size:6px;
+
+.time_iframe {
+    font-size: 6px;
 }
 
 .center-logo-flag img {
@@ -216,7 +219,7 @@ nav {
 
 #chief-card {
     margin-top: 30px;
-   
+
 }
 
 #sub-chief-card {
@@ -229,6 +232,7 @@ nav {
     max-width: 130%;
     padding: 5px;
 }
+
 .dropdown-my {
     float: left;
     overflow: hidden;
@@ -249,11 +253,12 @@ nav {
 .dropdown:hover .dropbtn {
     background-color: red;
 } */
-#color-navbar{
+#color-navbar {
     color: #fff;
     text-decoration: none;
 }
-#color-navbar:hover{
+
+#color-navbar:hover {
     color: none;
 }
 
@@ -282,26 +287,31 @@ nav {
 .dropdown-my:hover .dropdown-content {
     display: block;
 }
-#name {
 
+#name {
     font-weight: 600;
-        font-size: 1.3vw;
-        padding: 5px;
-        text-align: center;
-        margin-top: -90px;
-        margin-left: 130px;
-        display: block;
+    font-size: 1.3vw;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 90px;
+    left: 70px;
 }
 
 #post {
     font-weight: 500;
-    text-align: center;
-    margin-left: 130px;
-    margin-top: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 0.7rem;
+    margin-top: 0px;
+    position: relative;
+    left: 70px;
+    bottom: 100px;
     color: rgb(188, 171, 171);
 }
-
 #read-more {
     background-color: #BD0912;
     color: #ffff;
@@ -327,11 +337,13 @@ nav {
     padding: 20px;
     min-height: 50vh;
 }
+
 .download-release {
     background-color: #2460b9;
     padding: 20px;
     min-height: 50vh;
 }
+
 #read-all {
     background-color: #BD0912;
     color: #ffff;
@@ -340,6 +352,7 @@ nav {
     margin-right: 20px;
     float: right;
 }
+
 #read-all-download {
     background-color: #BD0912;
     color: #ffff;
@@ -361,31 +374,34 @@ nav {
     position: relative;
     margin: 10px;
     padding: 20px;
-    position:relative;
+    position: relative;
     margin-top: -25px;
     flex: 1;
 }
-.main-card{
+
+.main-card {
     margin-top: 30px;
+
 }
-#chief-card-second{
+
+#chief-card-second {
     height: 25vh;
     margin-top: -10px;
     border: 0px solid;
-    margin-left: 0px;
+
+
 }
-.img-wrap{
-    
+
+.img-wrap {
+
     object-fit: contain;
 }
-#image-first-sc{
+
+#image-first-sc {
     width: 40%;
-    display: block;
-    /* margin-left: auto; */
-    margin-right: auto;
     height: 17vh;
     object-fit: cover;
-    width: 20vh;
+
 
 }
 
@@ -526,8 +542,7 @@ nav {
     font-size: 0.8rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    overflow:hidden
-    -webkit-box-orient: vertical;
+    overflow: hidden -webkit-box-orient: vertical;
 }
 
 .download-item ul li a:hover {
@@ -683,7 +698,7 @@ nav {
 
 /* side menu button */
 .allbtn {
-    margin-bottom: -65px;
+    margin-bottom: -5px;
 }
 
 #menu-btn {
@@ -781,9 +796,11 @@ section {
     position: relative;
     left: 130px;
 }
-#whole-form{
+
+#whole-form {
     padding: 10px;
 }
+
 .fbtwitter {
     margin-top: 20px;
 }
@@ -794,7 +811,8 @@ section {
 
 }
 
-.facebooktwitter,.twitter-head {
+.facebooktwitter,
+.twitter-head {
     background-color: #2460b9;
     padding: 5px;
 }
@@ -822,17 +840,19 @@ section {
     width: 140px;
     padding: 2px;
 }
-.twitter-head h1{
-        color: #fff;
-            margin-left: 30px;
-            font-size: 1.3rem;
-            margin: 5px;
-            position: relative;
-            left: 0px;
-            border-bottom: 4px solid white;
-            width: 120px;
-            padding: 2px;
+
+.twitter-head h1 {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    margin: 5px;
+    position: relative;
+    left: 0px;
+    border-bottom: 4px solid white;
+    width: 120px;
+    padding: 2px;
 }
+
 .vdo {
     position: relative;
     left: 70px;
@@ -840,11 +860,12 @@ section {
     width: 80%;
 }
 
-.facebook-page iframe{
+.facebook-page iframe {
     width: 100%;
     margin-top: 10px;
 }
-.twitter-page iframe{
+
+.twitter-page iframe {
     width: 98%;
     margin-top: 10px;
 }
@@ -883,7 +904,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .footer-logo img {
