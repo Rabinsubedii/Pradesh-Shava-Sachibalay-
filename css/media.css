@@ -53,15 +53,10 @@
 
     #name {
         font-size: 1rem;
-        position: relative;
-        margin-right: -40px;
-        object-fit: contain;
     }
 
     #post {
         font-size: 0.8rem;
-        position: relative;
-        margin-right: -40px;
     }
 
     .flex-container,
